@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function check(){
+		var uname = frmlogin.userName.value;
+		var pass = frmlogin.password.value;
+		if(uname=="raghu" && pass=="hello"){
+			window.open("simpleCalc.html");
+		} else alert("user name and password is wrong");
+	}
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form name="frmlogin">
+<center>
+	<table border="3">
+	<tr>
+	<th colspan="2" >Login</th>
+	</tr>
+	<tr>
+		<th>User Name</th>
+		<td>
+		<input type="text" name="userName"/>
+		</td>
+	</tr>
+	<tr>
+		<th>Password</th>
+		<td>
+		<input type="password" name="password"/>
+		</td>
+	</tr>
+	<tr>
+	<th colspan="2" >
+	<input type="button" value ="check" onclick="check()"/>
+	<span id="res"></span>
+	</th>
+	</tr>
+	</table>
+</center>
+</form>
+</body>
+</html>

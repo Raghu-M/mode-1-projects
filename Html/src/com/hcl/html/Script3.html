@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function show(){
+		var sname = frmData.StuName.value;
+		//alert("Name is : " + sname);
+		document.getElementById("res").innerHTML="Name is "+sname;
+		
+	}
+</script>
+ 
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form name="frmData">
+<center>
+Name : 
+<input type="text" name="StuName" /><br/><br/>
+<input type="button" value="Show" onclick="show()"/><br/><br/>
+<span id="res"></span>
+</center>
+</form>
+</body>
+</html>

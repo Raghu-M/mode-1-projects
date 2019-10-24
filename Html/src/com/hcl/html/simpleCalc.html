@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	/*function first(var res){
+		if(isNaN(Calc.N1.value)){
+			Calc.res.value = "only numbers";
+			return;
+		}
+		if(Calc.N1.value == ""){
+			Calc.res.value = "enter num1";
+			return
+		}
+	}
+	function second(var res){
+		if(isNaN(Calc.N2.value)){
+			Calc.res.value = "only numbers";
+			return;
+		}
+		if(Calc.N2.value == ""){
+			Calc.res.value = "enter num2";
+			return;
+		}
+		Calc.res.value = res;
+	}
+	*/
+ 	function sum(){
+		var res = parseInt(Calc.N1.value) + parseInt(Calc.N2.value);
+		Calc.res.value = res;
+ 	}
+ 	function mul(){
+		var res = parseInt(Calc.N1.value) * parseInt(Calc.N2.value);
+		Calc.res.value = res;;
+ 	}
+ 	function sub(){
+		var res = parseInt(Calc.N1.value) - parseInt(Calc.N2.value);
+		Calc.res.value = res;
+ 	}
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form name="Calc">
+<center>
+	<table border="1">
+	<tr>
+		<th colspan="3"> Simple Calc</th>
+	</tr>
+	<tr>
+		<th>First Num</th>
+		<td colspan="2">
+		<input type="text" name="N1" />
+		</td>
+	</tr>
+	<tr>
+	<th>Second Num</th>
+		<td colspan="2">
+		<input type="text" name="N2" />
+		</td>
+	</tr>
+	<tr>
+	<th>Result</th>
+		<td colspan="2">
+		<input type="text" name="res" />
+		</td>
+	</tr>
+	<tr>
+		<th>
+		<input type="button" value="Sum" onclick="sum()"/>
+		</th>
+		<th>
+		<input type="button" value="sub" onclick="sub()"/>
+		</th>
+		<th>
+		<input type="button" value="mul" onclick="mul()"/>
+		</th>
+	</tr>
+	</table>
+</center>
+</form>
+
+</body>
+</html>

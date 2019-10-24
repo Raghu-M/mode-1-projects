@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.hcl.inventory.InventoryDOC&apos; to &apos;InventoryDAO&apos;&#x0D;&#x0A;- Original project: &apos;InventryProject&apos;&#x0D;&#x0A;- Original element: &apos;com.hcl.inventory.InventoryDOC&apos;&#x0D;&#x0A;- Renamed element: &apos;com.hcl.inventory.InventoryDAO&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;InventoryDOC&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.hcl.inventory{InventoryDOC.java[InventoryDOC" matchStrategy="1" name="InventoryDAO" qualified="false" references="true" similarDeclarations="false" stamp="1565256039937" textual="false" version="1.0"/>
+</session>

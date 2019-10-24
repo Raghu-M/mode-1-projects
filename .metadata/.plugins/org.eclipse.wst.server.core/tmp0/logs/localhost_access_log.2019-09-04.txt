@@ -1,0 +1,11 @@
+127.0.0.1 - - [04/Sep/2019:15:25:48 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [04/Sep/2019:15:25:49 +0530] "GET /EMS/Login.jsp HTTP/1.1" 200 860
+0:0:0:0:0:0:0:1 - - [04/Sep/2019:15:26:10 +0530] "GET /EMS/Login.jsp?EMP_ID=2000&password=Laxmi HTTP/1.1" 200 4490
+0:0:0:0:0:0:0:1 - - [04/Sep/2019:15:26:24 +0530] "GET /EMS/Login.jsp HTTP/1.1" 200 860
+0:0:0:0:0:0:0:1 - - [04/Sep/2019:15:26:24 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [04/Sep/2019:15:26:33 +0530] "GET /EMS/Login.jsp?EMP_ID=2000&password=Laxmi HTTP/1.1" 200 4490
+0:0:0:0:0:0:0:1 - - [04/Sep/2019:15:26:47 +0530] "GET /EMS/ApplyLeave.jsp HTTP/1.1" 200 2087
+0:0:0:0:0:0:0:1 - - [04/Sep/2019:15:26:55 +0530] "GET /EMS/ApplyLeave.jsp?startdate=2019-09-12&enddate=2019-09-12&days=&leavetype=EL&leavereason=+cgh HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [04/Sep/2019:15:27:04 +0530] "GET /EMS/DashBoard.jsp HTTP/1.1" 200 4490
+0:0:0:0:0:0:0:1 - - [04/Sep/2019:15:27:05 +0530] "GET /EMS/Login.jsp HTTP/1.1" 200 860
+0:0:0:0:0:0:0:1 - - [04/Sep/2019:15:27:14 +0530] "GET /EMS/Login.jsp?EMP_ID=3000&password=Raghu HTTP/1.1" 200 8113

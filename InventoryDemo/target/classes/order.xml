@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC 
+"-//SPRING//DTD BEAN//EN" 
+"http://www.springframework.org/dtd/spring-beans.dtd"> 
+<beans>
+	<bean id="p1" class="com.hcl.inventory.Product">
+		<property name="product" value="Laptop" />
+		<property name="price" value="20000" />
+		<property name="quantityAvail" value="20" />
+	</bean>
+	
+	<bean id="p2" class="com.hcl.inventory.Product">
+		<property name="product" value="Mobile" />
+		<property name="price" value="10000" />
+		<property name="quantityAvail" value="15" />
+	</bean>
+	
+	
+	<bean id="o1" class="com.hcl.inventory.Order">
+		<property name="orderid" value="001" />
+		<property name="objproduct" ref="p1" />
+		<property name="qtyord" value="15" />
+	</bean>
+	
+	<bean id="o2" class="com.hcl.inventory.Order">
+		<property name="orderid" value="002" />
+		<property name="objproduct" ref="p2" />
+		<property name="qtyord" value="15" />
+	</bean>
+	
+	<bean id="o3" class="com.hcl.inventory.Order">
+		<property name="orderid" value="003" />
+		<property name="objproduct" ref="p1" />
+		<property name="qtyord" value="21" />
+	</bean>
+	
+	<bean id="oLogic" class="com.hcl.inventory.OrderLogic">
+		<property name="items" >
+		<list>
+			<ref bean="o1"/>
+			<ref bean="o2"/>
+			<ref bean="o3"/>
+		</list>
+		</property>
+	</bean>
+</beans>

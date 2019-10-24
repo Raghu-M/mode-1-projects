@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.hcl.threads.Even&apos; to &apos;ThrEx&apos;&#x0D;&#x0A;- Original project: &apos;Day11&apos;&#x0D;&#x0A;- Original element: &apos;com.hcl.threads.Even&apos;&#x0D;&#x0A;- Renamed element: &apos;com.hcl.threads.ThrEx&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Even&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.hcl.threads{Even.java[Even" matchStrategy="1" name="ThrEx" qualified="false" references="true" similarDeclarations="false" stamp="1565583578584" textual="false" version="1.0"/>
+</session>
